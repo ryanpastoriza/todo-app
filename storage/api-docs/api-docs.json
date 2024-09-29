@@ -1,0 +1,31 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Todo App Api",
+        "description": "API for managing User Tasks.",
+        "version": "0.0.1"
+    },
+    "paths": {
+        "/api/tasks": {},
+        "api/tasks/": {
+            "get": {
+                "tags": [
+                    "Tasks"
+                ],
+                "summary": "Get all incomplete tasks",
+                "operationId": "b576043f4a97be47f778d6e4df6eb4d7",
+                "responses": {
+                    "200": {
+                        "description": "A list of incomplete tasks"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Tasks",
+            "description": "Tasks"
+        }
+    ]
+}
